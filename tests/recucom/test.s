@@ -2,13 +2,12 @@
 
 	lda #0
 
-	; recursive comments (may / should?) go away with 2.4
+	; recursive comments are gone in 2.4
 
 /*
 	sta $2000
 	/* commented
 	lda #1
-	*/
 */
 
 	; C++ comments
@@ -30,4 +29,6 @@
 	/* TODO: interpret "\" escape codes, shell variables */
 
 
+.asc "TOBY"     // Handle *EXEC/*SPOOL case
+    lda #0
 
